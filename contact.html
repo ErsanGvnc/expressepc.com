@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us | Express EPC</title>
+        <meta name="description" content="Get in touch with Express EPC for your engineering and procurement needs.">
+        <meta name="theme-color" content="#004a99">
+        <link rel="icon" type="image/png" href="global/logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="global/global.css">
+</head>
+
+<body>
+
+        <header id="main-header">
+                <div class="logo-container">
+                        <a href="index.html" class="logo">
+                                <img src="global/logo.png" alt="EXPRESS EPC" style="height: 50px; display: block;">
+                        </a>
+                        <div class="logo-tagline-wrapper">
+                                <span class="logo-tagline en-only">Fast Track Solutions for EPC Success</span>
+                                <span class="logo-tagline tr-only">EPC Başarısı için Hızlı Çözümler</span>
+                        </div>
+                </div>
+
+                <button class="mobile-menu-icon" onclick="toggleMobileMenu()" aria-label="Menu">
+                        <i class="fas fa-bars"></i>
+                </button>
+
+                <nav id="main-nav">
+                        <ul>
+                                <li><a href="index.html" class="en-only">Home</a><a href="index.html"
+                                                class="tr-only">Ana Sayfa</a></li>
+
+                                <li><a href="services.html" class="en-only">Services</a><a href="services.html"
+                                                class="tr-only">Hizmetler</a></li>
+                                <li><a href="about.html" class="en-only">About Us</a><a href="about.html"
+                                                class="tr-only">Hakkımızda</a>
+                                </li>
+
+                                <li class="dropdown">
+                                        <a href="#" class="en-only">Products <i class="fas fa-chevron-down"></i></a>
+                                        <a href="#" class="tr-only">Ürünler <i class="fas fa-chevron-down"></i></a>
+                                        <div class="mega-menu">
+                                                <div class="mega-col">
+                                                        <h3 class="en-only">Piping Materials</h3>
+                                                        <h3 class="tr-only">Boru Malzemeleri</h3>
+
+                                                        <span class="sub-cat-title en-only">Pipes</span>
+                                                        <span class="sub-cat-title tr-only">Borular</span>
+                                                        <ul>
+                                                                <li><a href="products.html?category=piping-materials#pipes">Seamless
+                                                                                Pipes (CS, SS,
+                                                                                Duplex and Alloy)</a></li>
+                                                                <li><a href="products.html?category=piping-materials#pipes">Welded
+                                                                                Pipes (CS, SS, Duplex
+                                                                                and Alloy)</a></li>
+                                                                <li><a href="products.html?category=piping-materials#pipes">Titanium
+                                                                                Pipes</a></li>
+                                                                <li><a href="products.html?category=piping-materials#pipes">Thermosetting
+                                                                                Plastic Pipes
+                                                                                (GRP, FRP)</a></li>
+                                                                <li><a href="products.html?category=piping-materials#pipes">Thermoplastic
+                                                                                Pipes (HDPE,
+                                                                                ABS, C-PVC, U-PVC)</a></li>
+                                                                <li><a href="products.html?category=piping-materials#pipes">PTFE
+                                                                                Lined Pipes and
+                                                                                Fittings</a></li>
+                                                                <li><a href="products.html?category=piping-materials#pipes">CRA
+                                                                                cladded pipes</a></li>
+                                                        </ul>
+
+                                                        <span class="sub-cat-title en-only">Fittings</span>
+                                                        <span class="sub-cat-title tr-only">Fittingler</span>
+                                                        <ul>
+                                                                <li><a href="products.html?category=piping-materials#fittings">Forged
+                                                                                Fittings</a></li>
+                                                                <li><a href="products.html?category=piping-materials#fittings">Buttweld
+                                                                                Fittings</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=piping-materials#fittings">Olets
+                                                                                and Swages</a></li>
+                                                                <li><a href="products.html?category=piping-materials#fittings">Forged
+                                                                                Titanium
+                                                                                Fittings</a></li>
+                                                                <li><a href="products.html?category=piping-materials#fittings">Buttweld
+                                                                                Titanium
+                                                                                Fittings</a></li>
+                                                                <li><a href="products.html?category=piping-materials#fittings">Thermoplastic
+                                                                                Fittings</a></li>
+                                                        </ul>
+
+                                                        <span class="sub-cat-title en-only">Flanges</span>
+                                                        <span class="sub-cat-title tr-only">Flanşlar</span>
+                                                        <ul>
+                                                                <li><a href="products.html?category=piping-materials#flanges">Blind
+                                                                                Flanges</a></li>
+                                                                <li><a href="products.html?category=piping-materials#flanges">Welding
+                                                                                Neck Flanges</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=piping-materials#flanges">Slip
+                                                                                On Flanges</a></li>
+                                                                <li><a href="products.html?category=piping-materials#flanges">Socket
+                                                                                Weld Flanges</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=piping-materials#flanges">Lap
+                                                                                Joint Flanges</a></li>
+                                                                <li><a href="products.html?category=piping-materials#flanges">Threaded
+                                                                                Flanges</a></li>
+                                                        </ul>
+
+                                                        <span class="sub-cat-title en-only">Bolts</span>
+                                                        <span class="sub-cat-title tr-only">Cıvatalar</span>
+                                                        <ul>
+                                                                <li><a href="products.html?category=piping-materials#bolts">Stud
+                                                                                Bolts</a></li>
+                                                                <li><a href="products.html?category=piping-materials#bolts">Machine
+                                                                                Bolts</a></li>
+                                                                <li><a href="products.html?category=piping-materials#bolts">Coated
+                                                                                Bolts</a></li>
+                                                                <li><a href="products.html?category=piping-materials#bolts">Stainless
+                                                                                Steel and Duplex
+                                                                                Bolts</a></li>
+                                                        </ul>
+
+                                                        <span class="sub-cat-title en-only">Gaskets</span>
+                                                        <span class="sub-cat-title tr-only">Contalar</span>
+                                                        <ul>
+                                                                <li><a href="products.html?category=piping-materials#gaskets">Spiral
+                                                                                Wound Gaskets
+                                                                                (SWG)</a></li>
+                                                                <li><a href="products.html?category=piping-materials#gaskets">Ring
+                                                                                Type Joint (RTJ)
+                                                                                Gaskets</a></li>
+                                                                <li><a href="products.html?category=piping-materials#gaskets">Kammprofile
+                                                                                Gaskets</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=piping-materials#gaskets">Non-Asbestos
+                                                                                Sheet
+                                                                                Material Gaskets</a></li>
+                                                        </ul>
+
+                                                        <span class="sub-cat-title en-only">Valves</span>
+                                                        <span class="sub-cat-title tr-only">Vanalar</span>
+                                                        <ul>
+                                                                <li><a href="products.html?category=piping-materials#valves">Forged
+                                                                                Valves (Gate, Ball,
+                                                                                Check and Globe)</a></li>
+                                                                <li><a href="products.html?category=piping-materials#valves">Cast
+                                                                                Valves (Gate, Ball,
+                                                                                Check and Globe)</a></li>
+                                                                <li><a href="products.html?category=piping-materials#valves">Fire
+                                                                                Water Valve</a></li>
+                                                                <li><a href="products.html?category=piping-materials#valves">Ball
+                                                                                Valve</a></li>
+                                                                <li><a href="products.html?category=piping-materials#valves">Butterfly
+                                                                                Valve</a></li>
+                                                                <li><a href="products.html?category=piping-materials#valves">Stop
+                                                                                Check Valve</a></li>
+                                                                <li><a href="products.html?category=piping-materials#valves">Dual
+                                                                                Plate Check Valve</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=piping-materials#valves">Needle
+                                                                                Valve</a></li>
+                                                        </ul>
+
+                                                        <span class="sub-cat-title en-only">Other Piping
+                                                                Materials</span>
+                                                        <span class="sub-cat-title tr-only">Diğer Boru
+                                                                Malzemeleri</span>
+                                                        <ul>
+                                                                <li><a href="products.html?category=piping-materials#other">F8,
+                                                                                Blind and Spacer</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=piping-materials#other">Flange
+                                                                                Splash Guards</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=piping-materials#other">Hose
+                                                                                and Hose
+                                                                                Connections</a></li>
+                                                                <li><a href="products.html?category=piping-materials#other">Sight
+                                                                                Glasses</a></li>
+                                                                <li><a href="products.html?category=piping-materials#other">Metallic
+                                                                                Expansion
+                                                                                Joints</a></li>
+                                                                <li><a href="products.html?category=piping-materials#other">Non-Metallic
+                                                                                Expansion
+                                                                                Joints</a></li>
+                                                                <li><a href="products.html?category=piping-materials#other">Hangers
+                                                                                and Clamps</a></li>
+                                                                <li><a href="products.html?category=piping-materials#other">Corrosion
+                                                                                Coupons</a></li>
+                                                                <li><a href="products.html?category=piping-materials#other">Injection
+                                                                                Quills</a></li>
+                                                                <li><a href="products.html?category=piping-materials#other">Insulation
+                                                                                Kits</a></li>
+                                                                <li><a href="products.html?category=piping-materials#other">Variable
+                                                                                Load Spring Hangers
+                                                                                and Supports</a></li>
+                                                        </ul>
+                                                </div>
+
+                                                <!-- Electrical Megamenu Column -->
+                                                <div class="mega-col">
+                                                        <h3 class="en-only">Electrical</h3>
+                                                        <h3 class="tr-only">Elektrik</h3>
+                                                        <ul>
+                                                                <li><a href="products.html?category=electrical#electrical-products">Junction
+                                                                                Boxes</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=electrical#electrical-products">Cable
+                                                                                Glands</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=electrical#electrical-products">Power
+                                                                                Cables (LV,
+                                                                                MV, HV)</a></li>
+                                                                <li><a href="products.html?category=electrical#electrical-products">Duct
+                                                                                Seals & Cable
+                                                                                Sealing Systems</a></li>
+                                                                <li><a href="products.html?category=electrical#electrical-products">Cable
+                                                                                Trays and
+                                                                                Fasteners</a></li>
+                                                                <li><a href="products.html?category=electrical#electrical-products">Heat
+                                                                                Tracing
+                                                                                Materials</a></li>
+                                                                <li><a href="products.html?category=electrical#electrical-products">Distribution
+                                                                                Panels</a></li>
+                                                                <li><a href="products.html?category=electrical#electrical-products">Local
+                                                                                Control
+                                                                                Stations</a></li>
+                                                                <li><a href="products.html?category=electrical#electrical-products">Earthing
+                                                                                & Grounding
+                                                                                Materials</a></li>
+                                                                <li><a href="products.html?category=electrical#electrical-products">Cathodic
+                                                                                Protection
+                                                                                Materials</a></li>
+                                                                <li><a href="products.html?category=electrical#electrical-products">Cable
+                                                                                End Terminal &
+                                                                                Wire Accessories</a></li>
+                                                        </ul>
+                                                </div>
+
+                                                <!-- Instrumentation Megamenu Column -->
+                                                <div class="mega-col">
+                                                        <h3 class="en-only">Instrumentation</h3>
+                                                        <h3 class="tr-only">Enstrümantasyon</h3>
+                                                        <ul>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Electronic
+                                                                                Transmitters (FT, PT, LT, TT)</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Restriction
+                                                                                Orifices</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Instrument
+                                                                                Tubing and Compression Fittings</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Rotameters</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Self-acting
+                                                                                regulators</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Solenoid
+                                                                                Valves</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Pressure
+                                                                                Relief Valves</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Rupture
+                                                                                Discs</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Manifolds</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Instrument
+                                                                                Cables</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Fiber
+                                                                                Optic Cables</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Pressure
+                                                                                Gauges</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Pressure
+                                                                                Switches</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Gas
+                                                                                Cylinders for Analyzers</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Thermometers</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Thermocouple
+                                                                                Cables</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Level
+                                                                                Switches</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Telecommunication
+                                                                                Materials</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">CCTV</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Cable
+                                                                                Glands</a></li>
+                                                                <li><a href="products.html?category=instrumentation#instrumentation-products">Local
+                                                                                Control Stations</a></li>
+                                                        </ul>
+                                                </div>
+
+                                                <!-- Steel Structures Megamenu Column -->
+                                                <div class="mega-col">
+                                                        <h3 class="en-only">Steel Structures</h3>
+                                                        <h3 class="tr-only">Çelik Yapılar</h3>
+                                                        <ul>
+                                                                <li><a href="products.html?category=steel-structures#steel-products">Steel
+                                                                                Forms (Plate,
+                                                                                Tubes, Angles, Beams)</a></li>
+                                                                <li><a href="products.html?category=steel-structures#steel-products">Custom
+                                                                                Steel
+                                                                                Manufacturing</a></li>
+                                                        </ul>
+                                                </div>
+
+                                                <!-- Equipment and Spare Parts Megamenu Column -->
+                                                <div class="mega-col">
+                                                        <h3 class="en-only">Equipment & Spare Parts</h3>
+                                                        <h3 class="tr-only">Ekipman & Yedek Parçalar</h3>
+                                                        <ul>
+                                                                <li><a href="products.html?category=equipment-spare-parts#equipment">Diesel
+                                                                                Generators</a></li>
+                                                                <li><a href="products.html?category=equipment-spare-parts#equipment">Various
+                                                                                Equipment
+                                                                                Oils</a></li>
+                                                                <li><a href="products.html?category=equipment-spare-parts#equipment">Pumps</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=equipment-spare-parts#equipment">Fans</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=equipment-spare-parts#equipment">Induction
+                                                                                Motors
+                                                                                (LV, MV, HV)</a></li>
+                                                                <li><a href="products.html?category=equipment-spare-parts#equipment">Equipment
+                                                                                parts</a>
+                                                                </li>
+                                                        </ul>
+                                                </div>
+
+                                                <!-- Construction Materials Megamenu Column -->
+                                                <div class="mega-col">
+                                                        <h3 class="en-only">Construction Materials</h3>
+                                                        <h3 class="tr-only">İnşaat Malzemeleri</h3>
+                                                        <ul>
+                                                                <li><a href="products.html?category=construction-materials#construction">Hand
+                                                                                Tools</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=construction-materials#construction">Power
+                                                                                Tools</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=construction-materials#construction">Plastering
+                                                                                Tools</a></li>
+                                                                <li><a href="products.html?category=construction-materials#construction">Insulation
+                                                                                &
+                                                                                Cladding materials</a></li>
+                                                                <li><a href="products.html?category=construction-materials#construction">Chemicals</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=construction-materials#construction">Safety
+                                                                                Materials</a></li>
+                                                                <li><a href="products.html?category=construction-materials#construction">Scaffolding
+                                                                                Tools</a></li>
+                                                                <li><a href="products.html?category=construction-materials#construction">Rigging
+                                                                                &
+                                                                                Lifting Consumables</a></li>
+                                                                <li><a href="products.html?category=construction-materials#construction">Container</a>
+                                                                </li>
+                                                                <li><a href="products.html?category=construction-materials#construction">Welding
+                                                                                Machines and Consumables</a></li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                </li>
+
+                                <li><a href="contact.html" class="en-only">Contact</a><a href="contact.html"
+                                                class="tr-only">İletişim</a></li>
+
+                                <li class="dropdown lang-dropdown">
+                                        <a href="#">
+                                                <img src="https://flagcdn.com/w20/gb.png" alt="EN"
+                                                        class="flag-icon en-only">
+                                                <img src="https://flagcdn.com/w20/tr.png" alt="TR"
+                                                        class="flag-icon tr-only">
+                                                <i class="fas fa-chevron-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                                <li><a href="#" onclick="switchLanguage('en')"><img
+                                                                        src="https://flagcdn.com/w20/gb.png" alt="EN"
+                                                                        class="flag-icon"> English</a></li>
+                                                <li><a href="#" onclick="switchLanguage('tr')"><img
+                                                                        src="https://flagcdn.com/w20/tr.png" alt="TR"
+                                                                        class="flag-icon"> Türkçe</a></li>
+                                        </ul>
+                                </li>
+                        </ul>
+                </nav>
+        </header>
+
+        <section class="page-header-image">
+                <img src="global/globe.webp" alt="Express EPC Global Operations" class="contact-header-image">
+        </section>
+
+
+        <section class="content-container about-content">
+                <div class="main-text">
+                        <h2 class="en-only">We'd Love to Hear From You</h2>
+                        <h2 class="tr-only">Sizden Haber Almayı Çok İsteriz</h2>
+                        <p class="en-only">Whether you have a question about our products, services, pricing, or
+                                anything else, our
+                                team is ready to answer all your questions.</p>
+                        <p class="tr-only">Ürünlerimiz, hizmetlerimiz, fiyatlandırma veya başka bir konuyla ilgili
+                                sorunuz olsun,
+                                ekibimiz tüm sorularınızı yanıtlamaya hazır.</p>
+                </div>
+
+                <div class="contact-section">
+                        <div class="about-grid">
+                                <div class="about-card contact-info-card">
+                                        <i class="fas fa-address-book service-icon" style="color: var(--primary);"></i>
+                                        <h3 class="en-only">Get In Touch</h3>
+                                        <h3 class="tr-only">İletişime Geçin</h3>
+                                        <div class="contact-info">
+                                                <p><i class="fas fa-envelope"></i> <a
+                                                                href="mailto:sales@expressepc.com">sales@expressepc.com</a>
+                                                </p>
+                                                <p><i class="fas fa-mobile-alt"></i> <a href="tel:+905016255450">+90 501
+                                                                625 54 50</a></p>
+                                                <p><i class="fas fa-mobile-alt"></i> <a href="tel:+902322181150">+90 232
+                                                                218 11 50</a></p>
+                                                <p class="address-row">
+                                                        <i class="fas fa-map-marker-alt"></i>
+                                                        <span>Dedebasi Dist. 6131/1 St. Baris Apt. No: 12 D:
+                                                                11<br>Karsiyaka / Izmir /
+                                                                Türkiye</span>
+                                                </p>
+                                        </div>
+                                        <img src="global/office.jpeg" alt="Express EPC Office"
+                                                class="contact-office-photo">
+                                </div>
+
+                                <div class="about-card contact-form-card">
+                                        <i class="fas fa-paper-plane service-icon" style="color: var(--primary);"></i>
+                                        <h3 class="en-only">Send us a Message</h3>
+                                        <h3 class="tr-only">Bize Mesaj Gönderin</h3>
+
+                                        <form id="contact-form" onsubmit="handleContactForm(event)"
+                                                style="display: flex; flex-direction: column; gap: 15px;">
+
+                                                <input type="hidden" name="access_key"
+                                                        value="2c8a7218-1f23-4c53-b545-e7d5a3645fd5">
+
+                                                <input type="checkbox" name="botcheck" class="hidden"
+                                                        style="display: none;">
+
+                                                <div class="contact-form-group">
+                                                        <input type="text" name="name" placeholder="Your Name / Adınız"
+                                                                required>
+                                                </div>
+                                                <div class="contact-form-group">
+                                                        <input type="email" name="email"
+                                                                placeholder="Your Email / E-postanız" required>
+                                                </div>
+                                                <div class="contact-form-group">
+                                                        <input type="tel" name="phone"
+                                                                placeholder="Phone Number / Telefon Numarası" required>
+                                                </div>
+                                                <div class="contact-form-group">
+                                                        <input type="text" name="subject" placeholder="Subject / Konu"
+                                                                required>
+                                                </div>
+                                                <div class="contact-form-group">
+                                                        <textarea name="message" placeholder="Your Message / Mesajınız"
+                                                                rows="5" required></textarea>
+                                                </div>
+                                                <div class="contact-form-group">
+                                                        <button type="submit" class="en-only">Send Message</button>
+                                                        <button type="submit" class="tr-only">Mesaj Gönder</button>
+                                                </div>
+                                        </form>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="main-footer">
+                <div class="container">
+                        <div style="margin-bottom: 20px;">
+                                <a href="global/expressepc-product-catalog.pdf" download class="catalog-download-btn">
+                                        <i class="fas fa-download"></i>
+                                        <span class="en-only">Download Global Product & Sourcing Catalogue</span>
+                                        <span class="tr-only">Ürün Kataloğunu İndir</span>
+                                </a>
+                        </div>
+                        <p class="en-only">&copy; 2026 Express EPC. All rights reserved. | Fast Track Solutions for EPC
+                                Success</p>
+                        <p class="tr-only">&copy; 2026 Express EPC. Tüm hakları saklıdır. | EPC Başarısı için Hızlı
+                                Çözümler</p>
+                </div>
+        </footer>
+
+        <!-- WhatsApp Button -->
+        <div id="whatsapp-placeholder">
+                <a href="contact.html" class="mail-float">
+                        <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/905016255450" class="whatsapp-float" target="_blank" rel="noopener">
+                        <i class="fab fa-whatsapp"></i>
+                </a>
+        </div>
+
+        <script src="global/global.js"></script>
+</body>
+
+</html>
