@@ -241,3 +241,20 @@ if (window.innerWidth <= 991) {
     });
   });
 }
+
+// Scroll to Top
+window.onscroll = function () {
+  const btn = document.querySelector(".scroll-to-top");
+
+  if (!btn) return;
+
+  if (document.documentElement.scrollTop > 300) {
+    btn.style.display = "flex";
+  } else {
+    btn.style.display = "none";
+  }
+};
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
