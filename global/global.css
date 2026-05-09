@@ -648,7 +648,7 @@ nav > ul > li > a:hover {
 /* ==================== ABOUT SECTION ==================== */
 .page-header {
   background: var(--primary);
-  padding: 60px 5%;
+  padding: 30px 5%;
   color: white;
   text-align: center;
 }
