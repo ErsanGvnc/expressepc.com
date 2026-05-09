@@ -99,7 +99,7 @@ header {
 
 @media (max-width: 991px) {
   .logo-container {
-    gap: 10px;
+    gap: 14px;
   }
   .logo-tagline {
     font-size: 12px;
@@ -107,8 +107,11 @@ header {
 }
 
 @media (max-width: 768px) {
+  .logo img {
+    height: 60px !important; /* Logoyu küçülten kısım */
+  }
   .logo-tagline {
-    font-size: 9px;
+    font-size: 14px;
   }
   .logo-container {
     gap: 8px;
@@ -117,7 +120,7 @@ header {
 
 @media (max-width: 480px) {
   .logo-tagline {
-    font-size: 7px;
+    font-size: 14px;
   }
   .logo-container {
     gap: 6px;
@@ -126,7 +129,7 @@ header {
 
 @media (max-width: 360px) {
   .logo-tagline {
-    font-size: 6px;
+    font-size: 14px;
   }
   .logo-container {
     gap: 5px;
@@ -372,28 +375,23 @@ nav > ul > li > a:hover {
 }
 
 /* ==================== SLIDER/HERO SECTION ==================== */
+/* SLIDER - TAM ÇÖZÜM */
 .slider-container {
   position: relative;
   width: 100%;
-  height: calc(100vh - 110px);
-  min-height: 600px;
-  max-height: 700px;
-  background: var(--dark);
-  overflow: hidden;
   margin-top: 110px;
+  background: var(--dark);
 }
 
 .slider {
   position: relative;
   width: 100%;
-  height: 100%;
-  z-index: 1;
+  overflow: hidden;
 }
 
 .slide {
   position: absolute;
   width: 100%;
-  height: 100%;
   opacity: 0;
   transition: opacity 1s ease-in-out;
   z-index: 1;
@@ -404,15 +402,17 @@ nav > ul > li > a:hover {
 .slide.active {
   opacity: 1;
   z-index: 2;
+  position: relative; /* SADECE ACTIVE SLIDE RELATIVE */
 }
 
 .slide-bg {
-  position: absolute;
   width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+}
+
+.slide-bg img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .slide-content {
@@ -497,7 +497,7 @@ nav > ul > li > a:hover {
   .slider-container {
     margin-top: 70px;
     height: calc(100vh - 70px);
-    min-height: 400px;
+    min-height: 320px;
     max-height: 500px;
   }
 
@@ -1356,5 +1356,43 @@ footer {
 @media (max-width: 480px) {
   .products-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Scroll to Top */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 99998;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background: #003570;
+  transform: translateY(-5px);
+}
+
+.scroll-to-top i {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .scroll-to-top {
+    bottom: 20px;
+    left: 20px;
+    width: 45px;
+    height: 45px;
   }
 }
